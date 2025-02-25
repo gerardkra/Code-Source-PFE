@@ -1,4 +1,4 @@
-# Les figures ci-dessous sont obtenus à l'aide du fichier `MonodCrank.jl`
+# Les figures ci-dessous sont obtenues à l'aide du fichier`MonodCrank.jl`
 ### 1. **Préanalyse: Modèle de Monod**
 ![Modèle de Monod](monod_static_analysis.jpg)
 
