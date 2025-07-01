@@ -86,7 +86,7 @@ p3 = plot(t, D_opt, label="Contrôle \$D(t)\$", xlabel="Temps", ylabel="Taux de 
 plot!(p3, t, D_s, label="Contrôle singulier \$D_s(t)\$", linewidth=8, linestyle=:dash, color=:orange)
 title!(p3, "Évolution des contrôles")
 
-# 🏆 Amélioration de la légende pour tous les graphes
+# Amélioration de la légende pour tous les graphes
 # Appliquer cette configuration à tous les graphiques
 for p in [p1, p2, p3]
     plot!(p, legend=:right, legend_position=:center, 
@@ -95,7 +95,7 @@ for p in [p1, p2, p3]
 end
 
 
-# 🔥 Affichage final des graphiques en colonne
+# Affichage final des graphiques en colonne
 plot(p1, p2, p3, layout=(3, 1), size=(900, 1000))
 
 # Sauvegarde du graphique
